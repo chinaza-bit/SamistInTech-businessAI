@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title id="pageTitle">Post — SamistInTech</title>
+<meta name="description" id="pageDesc" content="SamistInTech blog." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">Samist<span>In</span>Tech</a>
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="index.html#services">What we do</a></li>
+        <li><a href="index.html#how">How it works</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-primary" href="https://wa.me/2347014024458">Chat on WhatsApp</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="section" style="padding-bottom:0;">
+    <div class="wrap post-head" id="postHead">
+      <p class="date">Loading…</p>
+      <h1>Loading post…</h1>
+    </div>
+    <div class="wrap">
+      <div class="post-cover" id="postCoverWrap" style="display:none;">
+        <img id="postCover" src="" alt="" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <div class="post-content" id="postContent"></div>
+      <div class="wrap" style="padding:0;">
+        <a class="back-link" href="blog.html">&larr; Back to all posts</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <a href="index.html" class="logo">Samist<span style="color:var(--gold)">In</span>Tech</a>
+      <ul class="footer-links">
+        <li><a href="https://wa.me/2347014024458">WhatsApp</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </div>
+    <p class="footer-bottom">© <span id="year"></span> SamistInTech. AI in business, made practical. Built for Nigerian businesses.</p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
