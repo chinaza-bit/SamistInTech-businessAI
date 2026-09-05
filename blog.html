@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Blog — SamistInTech</title>
+<meta name="description" content="Practical, day-to-day reads on how AI is helping Nigerian businesses save time and grow — from SamistInTech." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="blog">
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">
+      <span class="logo-mark"><svg viewBox="0 0 24 24" fill="#D9A441"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z"/></svg></span>
+      Samist<span>In</span>Tech
+    </a>
+    <nav class="main-nav" id="mainNav">
+      <ul>
+        <li><a href="index.html" data-page="home">Home</a></li>
+        <li><a href="services.html" data-page="services">Services</a></li>
+        <li><a href="how-it-works.html" data-page="how">How it works</a></li>
+        <li><a href="blog.html" data-page="blog">Blog</a></li>
+        <li><a href="contact.html" data-page="contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn-primary" href="https://wa.me/2347014024458">Chat on WhatsApp</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="page-intro">
+    <div class="wrap">
+      <p class="eyebrow-label">THE BLOG</p>
+      <h1>AI in business, explained plainly.</h1>
+      <p class="lede">Real, practical ways Nigerian businesses are putting AI to work — new posts added regularly.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="wrap">
+      <div class="blog-grid featured-layout" id="blogGrid">
+        <div class="blog-empty">First post is on the way — check back soon.</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <a href="index.html" class="logo">Samist<span style="color:var(--gold)">In</span>Tech</a>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="how-it-works.html">How it works</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <p class="footer-bottom">© <span id="year"></span> SamistInTech. AI in business, made practical. Built for Nigerian businesses.</p>
+  </div>
+</footer>
+<div class="promo-bar" id="promoBar">
+  <span class="promo-icon"><svg viewBox="0 0 24 24"><path d="M17.6 6.3A8.8 8.8 0 0 0 12 4a8.8 8.8 0 0 0-7.6 13.2L4 20l2.9-.8A8.8 8.8 0 0 0 12 20.6a8.8 8.8 0 0 0 5.6-14.3zM12 19a7 7 0 0 1-3.6-1l-.3-.2-2.6.7.7-2.5-.2-.3A7 7 0 1 1 12 19zm3.9-5.2c-.2-.1-1.3-.6-1.5-.7-.2-.1-.3-.1-.5.1-.1.2-.5.7-.6.8-.1.1-.2.1-.4 0-.2-.1-.9-.3-1.7-1-.6-.6-1-1.3-1.2-1.5-.1-.2 0-.3.1-.4l.3-.4c.1-.1.1-.2.2-.3.1-.1 0-.3 0-.4 0-.1-.5-1.2-.7-1.6-.2-.4-.4-.3-.5-.3h-.4c-.1 0-.4 0-.6.3-.2.2-.8.8-.8 1.9 0 1.1.8 2.2.9 2.3.1.2 1.6 2.4 3.8 3.4.5.2.9.4 1.2.5.5.2 1 .1 1.3-.1.4-.2 1.3-.5 1.4-1 .2-.5.2-1 .1-1.1 0-.1-.2-.2-.4-.3z"/></svg></span>
+  <div class="promo-text">
+    <strong>Get AI tips for your business, daily</strong>
+    <span>Follow our free WhatsApp channel for real updates.</span>
+  </div>
+  <a class="promo-follow" href="https://whatsapp.com/channel/0029Vb7q72m9hXFBwsnb7A1D" target="_blank" rel="noopener">Follow</a>
+  <button class="promo-close" id="promoClose" aria-label="Dismiss">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6 6 18M6 6l12 12"/></svg>
+  </button>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
